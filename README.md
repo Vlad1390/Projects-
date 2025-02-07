@@ -4,19 +4,19 @@
 This project demonstrates how to use the ELK (Elasticsearch, Logstash, and Kibana) stack for cybersecurity investigations. The goal is to collect, analyze, and visualize security-related logs to identify potential threats.
 
 ## Scenario
-A US-based company CyberT has been monitoring the VPN logs of the employees, and the SOC team detected some anomalies in the VPN activities. Our task as SOC Analysts is to examine the VPN logs for January 2022 and identify the anomalies. Some of the key points to note before the investigation are:
+A US-based company  CyberT has been monitoring the VPN logs of the employees, and the SOC team detected some anomalies in the VPN activities. Our task as SOC Analysts is to examine the VPN logs for January 2022 and identify the anomalies. Some of the key points to note before the investigation are:
 
-All VPN logs are being ingested into the index vpn_connections.
+All VPN logs are being ingested into the index # vpn_connections.
 The index contains the VPN logs for January 2022.
-A user Johny Brown was terminated on 1st January 2022.
+A user # Johny Brown was terminated on 1st January 2022.
 We observed failed connection attempts against some users that need to be investigated.
-## Setup Instructions
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/Investigating-with-ELK.git
-cd Investigating-with-ELK
-```
+![Investigating with ELK](https://github.com/Vlad1390/Projects-/blob/main/93bf216574fb435bef51b890a741e4cb.png?raw=true)
+
+## ElasticStack Overview
+
+Elastic stack is the collection of different open source components linked together to help users take the data from any source and in any format and perform a search, analyze and visualize the data in real-time.
+
 
 ### 2. Start ELK Stack Using Docker
 ```bash
