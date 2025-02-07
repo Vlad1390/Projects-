@@ -47,5 +47,21 @@ Beats is a host-based agent known as Data-shippers that is used to ship/transfer
 ## Kibana
 
 Kibana is a web-based data visualization that works with elasticsearch to analyze, investigate and visualize the data stream in real-time. It allows the users to create multiple visualizations and dashboards for better visibility.
+## How they work together:
+
+![Kibana Image](https://github.com/Vlad1390/Projects-/blob/main/Kibana.png?raw=true)
+
+- Beats is a set of different data shipping agents used to collect data from multiple agents. Like Winlogbeat is used to collect windows event logs, Packetbeat collects network traffic flows.
+- Logstash collects data from beats, ports or files, etc., parses/normalizes it into field value pairs, and stores them into elasticsearch.
+- Elasticsearch acts as a database used to search and analyze the data.
+- Kibana is responsible for displaying and visualizing the data stored in elasticsearch. The data stored in elasticseach can easily be shaped into different 
+  visualizations, time charts, infographics, etc., using Kibana.
+
+  As we already covered a brief intro of Kibana. In this Lab, we will explore different Kibana features while investigating the VPN logs. Kibana is an integral component of Elastic stack that is used to display, visualize and search logs. Some of the important tabs we will cover here are:
+
+- Discover tab
+- Visualization
+- Dashboard
+
 
 
