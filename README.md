@@ -35,25 +35,4 @@ The filter part is where the user specifies the filter options to normalize the 
 
 The Output part is where the user wants the filtered data to send. It can be a listening port, Kibana Interface, elasticsearch database, a file, etc. Logstash supports many Output plugins as shown in the reference documentation https://www.elastic.co/guide/en/logstash/8.1/output-plugins.html
 
-
-
-### 4. Import Logs
-Use Logstash to ingest log data:
-```bash
-docker exec -it logstash bin/logstash -f /etc/logstash/conf.d/logstash.conf
-```
-
-## Investigation Scenarios
-1. **Suspicious Login Attempts** – Analyze authentication logs for brute-force attacks.
-2. **Malware Execution** – Monitor Sysmon logs for suspicious process creation.
-3. **Data Exfiltration** – Detect unusual outbound traffic patterns.
-
-## Visualization
-- **Dashboards in Kibana**: Create visualizations to identify trends and anomalies.
-- **SIEM Integration**: Use Elastic Security features for threat detection.
-
-### Example Kibana Dashboard
-![Kibana Dashboard](images/kibana-dashboard.png)
-
-## Contributing
-Feel free to submit issues or pull requests to improve this project.
+![Logstash Image](https://github.com/Vlad1390/Projects-/blob/main/Logstash.png?raw=true)
