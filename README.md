@@ -17,15 +17,25 @@ We observed failed connection attempts against some users that need to be invest
 
 Elastic stack is the collection of different open source components linked together to help users take the data from any source and in any format and perform a search, analyze and visualize the data in real-time.
 
+![Elastic Stack Image](https://raw.githubusercontent.com/Vlad1390/Projects-/fadd80e67c14592ec90bd7018e1dc46d82d45ef5/elastic%20stack.png)
 
-### 2. Start ELK Stack Using Docker
-```bash
-docker-compose up -d
-```
+﻿Let's explore each component briefly and see how they work together.
 
-### 3. Verify Services
-- **Elasticsearch**: http://localhost:9200
-- **Kibana**: http://localhost:5601
+## Elasticsearch
+
+Elasticsearch is a full-text search and analytics engine used to store JSON-formated documents. Elasticsearch is an important component used to store, analyze, perform correlation on the data, etc. Elasticsearch supports RESTFul API to interact with the data.
+
+## Logstash
+
+Logstash is a data processing engine used to take the data from different sources, apply the filter on it or normalize it, and then send it to the destination which could be Kibana or a listening port. A logstash configuration file is divided into three parts, as shown below.
+
+The input part is where the user defines the source from which the data is being ingested. Logstash supports many input plugins as shown in the reference https://www.elastic.co/guide/en/logstash/8.1/input-plugins.html
+
+The filter part is where the user specifies the filter options to normalize the log ingested above. Logstash supports many filter plugins as shown in the reference documentation https://www.elastic.co/guide/en/logstash/8.1/filter-plugins.html
+
+The Output part is where the user wants the filtered data to send. It can be a listening port, Kibana Interface, elasticsearch database, a file, etc. Logstash supports many Output plugins as shown in the reference documentation https://www.elastic.co/guide/en/logstash/8.1/output-plugins.html
+
+
 
 ### 4. Import Logs
 Use Logstash to ingest log data:
