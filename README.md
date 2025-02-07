@@ -40,3 +40,5 @@ The Output part is where the user wants the filtered data to send. It can be a l
 ## Beats
 
 Beats is a host-based agent known as Data-shippers that is used to ship/transfer data from the endpoints to elasticsearch. Each beat is a single-purpose agent that sends specific data to the elasticsearch. All available beats are shown below.
+
+![The Beats Family Image[.()
