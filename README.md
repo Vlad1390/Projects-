@@ -36,3 +36,7 @@ The filter part is where the user specifies the filter options to normalize the 
 The Output part is where the user wants the filtered data to send. It can be a listening port, Kibana Interface, elasticsearch database, a file, etc. Logstash supports many Output plugins as shown in the reference documentation https://www.elastic.co/guide/en/logstash/8.1/output-plugins.html
 
 ![Logstash Image](https://github.com/Vlad1390/Projects-/blob/main/Logstash.png?raw=true)
+
+## Beats
+
+Beats is a host-based agent known as Data-shippers that is used to ship/transfer data from the endpoints to elasticsearch. Each beat is a single-purpose agent that sends specific data to the elasticsearch. All available beats are shown below.
