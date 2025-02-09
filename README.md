@@ -123,5 +123,11 @@ We can use these values to apply filters to them. Clicking on the + button will 
 
 Add filter option under the search bar allows us to apply a filter on the fields as shown below.
 
+![Add GIF](https://github.com/Vlad1390/Projects-/blob/main/Add.gif?raw=true)
+
+## Create Table
+By default, the documents are shown in raw form. We can click on any document and select important fields to create a table showing only those fields. This method reduces the noise and makes it more presentable and meaningful.
+
+
 
 
