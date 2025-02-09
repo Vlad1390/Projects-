@@ -69,5 +69,21 @@ Kibana is a web-based data visualization that works with elasticsearch to analyz
 
 Discover tab within the Kibana interface contains the logs being ingested manually or in real-time, the time-chart, normalized fields, etc. Analysts use this tab mostly to search/investigate the logs using the search bar and filter options.
 
+![Discover Tab Image](https://github.com/Vlad1390/Projects-/blob/main/New%20folder/Discover_tab.png?raw=true)
+
+Some key information available in a dashboard interface are
+
+- Logs (document): Each log here is also known as a single document containing information about the event. It shows the fields and values found in that document.
+- Fields pane: Left panel of the interface shows the list of the fields parsed from the logs. We can click on any field to add the field to the filter or remove it from the search.
+- Index Pattern: Let the user select the index pattern from the available list.
+- Search bar: A place where the user adds search queries / applies filters to narrow down the results.
+- Time Filter: We can narrow down results based on the time duration. This tab has many options to select from to filter/limit the logs.
+- Time Interval: This chart shows the event counts over time.
+- TOP Bar: This bar contains various options to save the search, open the saved searches, share or save the search, etc.
+Each important element found in the Discover tab is briefly explained below:
+
+## Time Filter
+
+The time filter allows us to apply a log filter based on the time. It has many options to choose from.
 
 
