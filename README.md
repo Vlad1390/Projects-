@@ -97,6 +97,17 @@ The Quick Select tab is another useful tab within the Kibana interface that prov
 
 The timeline pane provides an overview of the number of events that occurred for the time/date, as shown below. We can select the bar only to show the logs in that specified period. The count at the top left displays the number of documents/events it found in the selected time.
 
+![Timeline Image](https://github.com/Vlad1390/Projects-/blob/main/New%20folder/Timeline.png?raw=true)
+
+This bar is also helpful in identifying the spike in the logs. We got an unusual spike on 11th January 2022, which is worth investigating.
+
+## Index Pattern
+
+Kibana, by default, requires an index pattern to access the data stored/being ingested in the elasticsearch. Index pattern tells Kibana which elasticsearch data we want to explore. Each Index pattern corresponds to certain defined properties of the fields. A single index pattern can point to multiple indices.
+
+Each log source has a different log structure; therefore, when logs are ingested in the elasticsearch, they are first normalized into corresponding fields and values by creating a dedicated index pattern for the data source.
+
+In the attached lab, we will be exploring the index pattern with the name vpn_connections that contains the VPN logs.
 
 
 
