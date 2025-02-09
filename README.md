@@ -65,5 +65,9 @@ Kibana is a web-based data visualization that works with elasticsearch to analyz
 
   ![Dashboard Image](https://github.com/Vlad1390/Projects-/blob/main/Dashboard.png?raw=true)
 
+ ## Discover Tab
+
+Discover tab within the Kibana interface contains the logs being ingested manually or in real-time, the time-chart, normalized fields, etc. Analysts use this tab mostly to search/investigate the logs using the search bar and filter options.
+
 
 
