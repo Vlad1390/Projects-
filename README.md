@@ -91,6 +91,12 @@ The time filter allows us to apply a log filter based on the time. It has many o
 ## Quick Select
 The Quick Select tab is another useful tab within the Kibana interface that provides multiple options to select from. The Refresh, Every option at the end will allow us to choose the time to refresh the logs continuously. If 5 seconds is set, the logs will refresh every 5 seconds automatically.
 
+![Quick Select Image](https://github.com/Vlad1390/Projects-/blob/main/New%20folder/Quick_select.png?raw=true)
+
+## Timeline
+
+The timeline pane provides an overview of the number of events that occurred for the time/date, as shown below. We can select the bar only to show the logs in that specified period. The count at the top left displays the number of documents/events it found in the selected time.
+
 
 
 
