@@ -109,5 +109,13 @@ Each log source has a different log structure; therefore, when logs are ingested
 
 In the attached lab, we will be exploring the index pattern with the name vpn_connections that contains the VPN logs.
 
+![Index Image](https://github.com/Vlad1390/Projects-/blob/main/Index.png?raw=true)
+
+## Left Panel - Fields
+
+The left panel of the Kibana interface shows the list of the normalized fields it finds in the available documents/logs. Click on any field, and it will show the top 5 values and the percentage of the occurrence.
+
+We can use these values to apply filters to them. Clicking on the + button will add a filter to show the logs containing this value, and the - button will apply the filter on this value to show the results that do not have this value.
+
 
 
