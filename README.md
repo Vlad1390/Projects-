@@ -128,6 +128,8 @@ Add filter option under the search bar allows us to apply a filter on the fields
 ## Create Table
 By default, the documents are shown in raw form. We can click on any document and select important fields to create a table showing only those fields. This method reduces the noise and makes it more presentable and meaningful.
 
+![Create Table GIF](https://github.com/Vlad1390/Projects-/blob/main/Create_Table.gif?raw=true)
+Don't forget to save the table format once it is created. It will then show the same fields every time a user logs into the dashboard.
 
 
 
