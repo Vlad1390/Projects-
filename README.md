@@ -117,5 +117,11 @@ The left panel of the Kibana interface shows the list of the normalized fields i
 
 We can use these values to apply filters to them. Clicking on the + button will add a filter to show the logs containing this value, and the - button will apply the filter on this value to show the results that do not have this value.
 
+![Left Panel Image](https://github.com/Vlad1390/Projects-/blob/main/Left_Panel.png?raw=true)
+
+## Add Filter Option
+
+Add filter option under the search bar allows us to apply a filter on the fields as shown below.
+
 
 
