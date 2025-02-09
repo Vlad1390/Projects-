@@ -86,4 +86,11 @@ Each important element found in the Discover tab is briefly explained below:
 
 The time filter allows us to apply a log filter based on the time. It has many options to choose from.
 
+![Time Filter Image](https://github.com/Vlad1390/Projects-/blob/main/New%20folder/Time_Filter.png?raw=true)
+
+## Quick Select
+The Quick Select tab is another useful tab within the Kibana interface that provides multiple options to select from. The Refresh, Every option at the end will allow us to choose the time to refresh the logs continuously. If 5 seconds is set, the logs will refresh every 5 seconds automatically.
+
+
+
 
