@@ -211,3 +211,9 @@ Explanation: We are telling Kibana to display all the documents in which the fie
 
 As we click on the search bar, we will be presented with all the available fields that we can use in our search query. To explore the other options of KQL, look at this official reference https://www.elastic.co/guide/en/kibana/7.17/kuery-query.html
 
+The visualization tab allows us to visualize the data in different forms like Table, Pie charts, Bar charts, etc. This visualization task will use multiple options this tab provides to create some simple presentable visualizations.
+
+## Create Visualization
+
+There are a few ways to navigate to the visualization tab. One way is to click on any field in the discover tab and click on the visualization as shown below.
+
