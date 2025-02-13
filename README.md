@@ -207,3 +207,7 @@ Search Query: Source_ip : 238.163.231.224    AND     UserName : Suleman
 
 Explanation: We are telling Kibana to display all the documents in which the field Source_ip contains the value 19.112.190.54 and UserName as Suleman as shown below.
 
+![KQL GIF](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG9.gif?raw=true)
+
+As we click on the search bar, we will be presented with all the available fields that we can use in our search query. To explore the other options of KQL, look at this official reference https://www.elastic.co/guide/en/kibana/7.17/kuery-query.html
+
