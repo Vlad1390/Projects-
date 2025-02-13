@@ -151,6 +151,12 @@ Let us look at the index, which includes the VPN logs. One of the fields Source_
 
 Let's search for the text United States in the search bar to return all the logs that contain this term regardless of the place or the field. This search returned 2304 hits, as shown below.
 
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG3.png?raw=true)
+
+What if we only search for the term United Will it return any result?
+
+
+
 
 
 
