@@ -260,7 +260,20 @@ By now, we have saved a few searches from the Discover tab and created some visu
 Go to the Dashboard tab and click on the Create dashboard.
 Image with a button to create Dashboard
 
-Click on Add from Library.
-Click on the visualizations and saved searches. It will be added to the dashboard.
-Once the items are added, adjust them accordingly, as shown below.
-Don't forget to save the dashboard after completing it.
+![Image 16](https://github.com/Vlad1390/Projects-/blob/main/16.png?raw=true)
+
+- Click on Add from Library.
+- Click on the visualizations and saved searches. It will be added to the dashboard.
+- Once the items are added, adjust them accordingly, as shown below.
+- Don't forget to save the dashboard after completing it.
+
+![KQL GIF](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG15.gif?raw=true)
+
+In this Lab, we briefly explored ELK components and then focused more on the Kibana interface and its features. While exploring Kibana Interface, we learned:
+
+- How to create a search query to search for the logs
+- Apply filters to narrow down the results.
+- Create Visualizations and dashboards.
+- How to investigate VPN logs.
+
+
