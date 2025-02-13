@@ -217,3 +217,13 @@ The visualization tab allows us to visualize the data in different forms like Ta
 
 There are a few ways to navigate to the visualization tab. One way is to click on any field in the discover tab and click on the visualization as shown below.
 
+![KQL GIF](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG10.gif?raw=true)
+
+We can create multiple visualizations by selecting options like tables, pie charts, etc.
+
+## Correlation Option
+
+Often, we require creating correlations between multiple fields. Dragging the required field in the middle will create a correlation tab in the visualization tab. Here we selected the Source_Country as the second field to show a correlation among the client Source_IP.
+
+
+
