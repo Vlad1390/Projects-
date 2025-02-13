@@ -134,6 +134,12 @@ Don't forget to save the table format once it is created. It will then show the 
 ## KQL Overview
  KQL (Kibana Query Language) is a search query language used to search the ingested logs/documents in the elasticsearch. Apart from the KQL language, Kibana also supports Lucene Query Language. We can disable the KQL query as shown below.
 
+[![KQL Query](https://github.com/Vlad1390/Projects-/blob/main/KQL/Query.png?raw=true)](https://github.com/Vlad1390/Projects-/blob/main/KQL/Query.png?raw=true)
+
+In this task, we will be exploring KQL syntax. With KQL, we can search for the logs in two different ways.
+
+- Free text search
+- Field-based search
 
 
 
