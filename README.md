@@ -197,6 +197,13 @@ Similarly, we can use NOT Operator to remove the particular term from the search
 Search Query: "United States" AND NOT ("Florida")
 
 
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG8.png?raw=true)
 
+## Field-based search
 
+In the Field-based search, we will provide the field name and the value we are looking for in the logs. This search has a special syntax as FIELD : VALUE. It uses a colon : as a separator between the field and the value. Let's look at a few examples.
+
+Search Query: Source_ip : 238.163.231.224    AND     UserName : Suleman
+
+Explanation: We are telling Kibana to display all the documents in which the field Source_ip contains the value 19.112.190.54 and UserName as Suleman as shown below.
 
