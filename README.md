@@ -173,13 +173,20 @@ We have used the wildcard with the term United to return all the results contain
 
 KQL also allows users to utilize the logical operators in the search query. Let us see the examples below.
 
-1- OR Operator
+### 1- OR Operator
 
 We will use the OR operator to show logs that contain either the United States or England.
 
 Search Query: "United States"    OR     "England"
 
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG6.png?raw=true)
 
+
+### 2- AND Operator
+
+Here, we will use AND Operator to create a search that will return the logs that contain the terms "UNITED STATES" AND "Virginia."
+
+Search Query: "United States" AND "Virginia"
 
 
 
