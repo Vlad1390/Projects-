@@ -141,5 +141,17 @@ In this task, we will be exploring KQL syntax. With KQL, we can search for the l
 - Free text search
 - Field-based search
 
+## Free text Search
+
+Free text search allows users to search for the logs based on the text-only. That means a simple search of the term security will return all the documents that contain this term, irrespective of the field.
+
+Let us look at the index, which includes the VPN logs. One of the fields Source_Country has the list of countries from where the VPN connections originated, as shown below.
+
+[![KQL Free Text](https://github.com/Vlad1390/Projects-/blob/main/KQL/Free_text.png?raw=true)](https://github.com/Vlad1390/Projects-/blob/main/KQL/Free_text.png?raw=true)
+
+Let's search for the text United States in the search bar to return all the logs that contain this term regardless of the place or the field. This search returned 2304 hits, as shown below.
+
+
+
 
 
