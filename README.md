@@ -131,5 +131,9 @@ By default, the documents are shown in raw form. We can click on any document an
 ![Create Table GIF](https://github.com/Vlad1390/Projects-/blob/main/Create_Table.gif?raw=true)
 Don't forget to save the table format once it is created. It will then show the same fields every time a user logs into the dashboard.
 
+## KQL Overview
+ KQL (Kibana Query Language) is a search query language used to search the ingested logs/documents in the elasticsearch. Apart from the KQL language, Kibana also supports Lucene Query Language. We can disable the KQL query as shown below.
+
+
 
 
