@@ -155,6 +155,16 @@ Let's search for the text United States in the search bar to return all the logs
 
 What if we only search for the term United Will it return any result?
 
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG4.png?raw=true)
+
+It didn't return any result because KQL looks for the whole term/word in the documents.
+
+## WILD CARD
+
+KQL allows the wild card * to match parts of the term/word. Let's find out how to use this wild card in the search query.
+
+Search Query: United*
+
 
 
 
