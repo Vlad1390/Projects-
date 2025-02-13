@@ -225,5 +225,26 @@ We can create multiple visualizations by selecting options like tables, pie char
 
 Often, we require creating correlations between multiple fields. Dragging the required field in the middle will create a correlation tab in the visualization tab. Here we selected the Source_Country as the second field to show a correlation among the client Source_IP.
 
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG11.png?raw=true)
+
+We can also create a table to show the values of the selected fields as columns, as shown below.
+
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG12.png?raw=true)
+
+The most important step in creating these visualizations is to save them. Click on the save Option on the right side and fill in the descriptive values below. We can add these visualizations to the already existing dashboard, or we can create a new one as well.
+
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG13.png?raw=true)
+
+
+Steps to take after creating Visualizations:
+
+- Create a visualization and Click on the Save button at the top right corner.
+- Add the title and description to the visualization.
+- We can add the visualization to any existing Dashboard or a new dashboard.
+- Click Save and add to the library when it's done.
+- 
+## Failed Connection Attempts
+
+We will utilize the knowledge gained above to create a table to display the user and the IP address involved in failed attempts.
 
 
