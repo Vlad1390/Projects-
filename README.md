@@ -188,6 +188,14 @@ Here, we will use AND Operator to create a search that will return the logs that
 
 Search Query: "United States" AND "Virginia"
 
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG7.png?raw=true)
+
+### 3- NOT Operator
+
+Similarly, we can use NOT Operator to remove the particular term from the search results. This search query will show the logs from the United States, including all states but ignoring Florida.
+
+Search Query: "United States" AND NOT ("Florida")
+
 
 
 
