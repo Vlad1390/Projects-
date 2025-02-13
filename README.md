@@ -165,6 +165,20 @@ KQL allows the wild card * to match parts of the term/word. Let's find out how t
 
 Search Query: United*
 
+![KQL Image](https://github.com/Vlad1390/Projects-/blob/main/KQL/IMG5.png?raw=true)
+
+We have used the wildcard with the term United to return all the results containing the term United and any other term. If we had logs with the term United NationsIt would also have returned those as a result of this wildcard.
+
+## Logical Operators (AND | OR | NOT)
+
+KQL also allows users to utilize the logical operators in the search query. Let us see the examples below.
+
+1- OR Operator
+
+We will use the OR operator to show logs that contain either the United States or England.
+
+Search Query: "United States"    OR     "England"
+
 
 
 
